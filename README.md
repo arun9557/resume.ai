@@ -4,6 +4,9 @@
        ##if u wanna working iwth meeee ! --- come come come 
 ![CatCuteGIF](https://github.com/user-attachments/assets/8b6a2cef-8ccc-40f8-bf13-18ea8e53743e)
 
+___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)
+
+And drop a message i will add you ...
 
 f####unctions --------- 
 ✅ User sign in / sign up
