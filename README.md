@@ -1,10 +1,11 @@
-bulit resume with AI 
-why--??    wor geting jobs <img width="900" height="1200" alt="58909a715236a4e0f6e2f971" src="https://github.com/user-attachments/assets/1b83aad7-b74a-40d9-9927-35d270ddf6a7" />
+#bulit resume with AI ,,,,, why--??   
+###for geting jobs  <img width="900" height="1200" alt="58909a715236a4e0f6e2f971" src="https://github.com/user-attachments/assets/1b83aad7-b74a-40d9-9927-35d270ddf6a7" />
 
-if u wanna working iwth meeee ! --- come come come ![CatCuteGIF](https://github.com/user-attachments/assets/8b6a2cef-8ccc-40f8-bf13-18ea8e53743e)
+       ##if u wanna working iwth meeee ! --- come come come 
+![CatCuteGIF](https://github.com/user-attachments/assets/8b6a2cef-8ccc-40f8-bf13-18ea8e53743e)
 
 
-functions --------- 
+f####unctions --------- 
 ✅ User sign in / sign up
 ✅ Create new resume
 ✅ Resume live preview / online link
