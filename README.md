@@ -10,15 +10,16 @@ ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a
 
 ## 👥 Collaborators and team
 
-### Arun Shekhar
+## 👥 Contributors
+
 <a href="https://github.com/arun9557">
-  <img src="https://github.com/arun9557.png" width="80" height="80" style="border-radius: 50%">
+  <img src="https://github.com/arun9557.png" width="60" height="60" style="border-radius: 50%; margin: 5px;">
 </a>
 
-### Shubh
 <a href="https://github.com/shubh229177">
-  <img src="https://github.com/shubh229177.png" width="80" height="80" style="border-radius: 50%">
+  <img src="https://github.com/shubh229177.png" width="60" height="60" style="border-radius: 50%; margin: 5px;">
 </a>
+
 
 f####unctions --------- 
 ✅ User sign in / sign up
