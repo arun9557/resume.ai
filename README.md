@@ -10,12 +10,14 @@ ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a
 
 ## 👥 Collaborators
 
-<a href="https://github.com/arun9557">317ef64" />
-
-  <img width="400" height="400" alt="117110654" src="https://github.com/user-attachments/assets/ac02d7e2-f1aa-476b-938d-36583" width="60" height="60">
+### Arun Shekhar
+<a href="https://github.com/arun9557">
+  <img src="https://github.com/arun9557.png" width="80" height="80" style="border-radius: 50%">
 </a>
-<a href="https://github.com/username">
-  <img src="https://avatars.githubusercontent.com/u/00000?v=4" width="60" height="60">
+
+### Shubh
+<a href="https://github.com/shubh229177">
+  <img src="https://github.com/shubh229177.png" width="80" height="80" style="border-radius: 50%">
 </a>
 
 f####unctions --------- 
