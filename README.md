@@ -8,7 +8,7 @@
 
 ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a message i will add you ...
 
-## 👥 Collaborators
+## 👥 Collaborators and me
 
 ### Arun Shekhar
 <a href="https://github.com/arun9557">
