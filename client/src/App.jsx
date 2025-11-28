@@ -1,6 +1,6 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
-import { Routes } from 'react-router-dom'
+// ...existing code...
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import Login from './pages/Login.jsx'
 import Dashboard from './pages/Dashboard.jsx'
@@ -10,11 +10,19 @@ import ResumeBuild from './pages/ResumeBuild.jsx'
 
 const App = () => {
   return (
-    <>
-      <Routes>
-        <Route path='/' element={<Home />}/>
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="app" element={<Layout />}>
+        <Route index element={<Dashboard />} />         
+        <Route path="dashboard" element={<Dashboard />} />
+        <Route path="resume-build" element={<ResumeBuild />} />
+        {/* support old/alternate path /app/builder */}
+        <Route path="builder" element={<ResumeBuild />} />
+      </Route>
+      <Route path="view/:resumeId" element={<Preview />} />
+      <Route path="login" element={<Login />} />
+      <Route path="*" element={<div>404 not found</div>} /> 
+    </Routes>
   )
 }
 
