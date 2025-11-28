@@ -21,7 +21,7 @@ const App = () => {
       </Route>
       <Route path="view/:resumeId" element={<Preview />} />
       <Route path="login" element={<Login />} />
-      <Route path="*" element={<div>SORYY BHAI KAM RAHA HU ISPE ABHI </div>} /> 
+      <Route path="*" element={<div>SORYY BHAI KAM RAHA HU ISPE ABHI</div>} /> 
     </Routes>
   )
 }
