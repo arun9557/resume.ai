@@ -1,14 +1,14 @@
 {
-  "version": 2,
-  "builds": [
+    "version": 2,
+    "builds": [
     {
-      "src": "client/package.json",
-      "use": "@vercel/static-build",
-      "config": { "distDir": "dist" }
+        "src": "client/package.json",
+        "use": "@vercel/static-build",
+        "config": { "distDir": "dist" }
     }
-  ],
-  "rewrites": [
+    ],
+    "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
-  ],
-  "cleanUrls": true
+    ],
+    "cleanUrls": true
 }
