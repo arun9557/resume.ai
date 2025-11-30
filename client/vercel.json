@@ -1,14 +1,14 @@
 {
-    "version": 2,
-    "builds": [
+  "version": 2,
+  "builds": [
     {
-        "src": "package.json",
-        "use": "@vercel/static-build",
-        "config": { "distDir": "dist" }
+      "src": "vite.config.js",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist" }
     }
-    ],
-    "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-    ],
-    "cleanUrls": true
+  ],
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
 }
