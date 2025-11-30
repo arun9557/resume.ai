@@ -1,9 +1,0 @@
-{
-  "name": "resume-ai-root",
-  "private": true,
-  "version": "0.0.0",
-  "scripts": {
-    "build": "cd client && npm ci && npm run build",
-    "start": "cd client && npm run dev"
-  }
-}
