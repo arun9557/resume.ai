@@ -21,6 +21,8 @@ ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a
 
 
 ## Functions --------- 
+
+
 ✅ User sign in / sign up 
 ✅ Create new resume
 ✅ Resume live preview / online link
