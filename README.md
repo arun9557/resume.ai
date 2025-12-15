@@ -1,3 +1,5 @@
+#### working on resume.ai
+![alt text](image-2.png)
 # bulit resume with AI ,,,,, why--??   
 ### for geting jobs  
 ![JobsJobsJobsFarlesmifelGIF](https://github.com/user-attachments/assets/75400520-fff6-4974-9bee-225d327f0f52)
@@ -21,9 +23,7 @@ ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a
 
 
 ## Functions --------- 
-
-
-✅ User sign in / sign up /
+✅ User sign in / sign up 
 ✅ Create new resume
 ✅ Resume live preview / online link
 ✅ share resume live link
@@ -31,3 +31,4 @@ ___ GO TO -- [Here](https://github.com/arun9557/resume.ai/issues/1)   And drop a
 ✅ Manage Resume like add, delete and edit resume
 ✅ Upload image in resume and remove background 
 ✅ Multiple resume template
+
