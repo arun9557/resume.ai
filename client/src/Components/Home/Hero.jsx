@@ -60,11 +60,11 @@ const Hero = () => {
                     {/* Avatars + Stars */}
                     <div className="flex items-center mt-24">
                         <div className="flex -space-x-3 pr-3">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200" alt="user3" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[1]" />
-                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200" alt="user1" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-2" />
-                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200" alt="user2" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[3]" />
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200" alt="user3" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[4]" />
-                            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="user5" className="size-8 rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[5]" />
+                            <img src="https://i.pinimg.com/736x/4c/10/f8/4c10f83093b9a53fa8a3b79ee42bdc35.jpg" alt="user3" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[1]" />
+                            <img src="https://i.pinimg.com/1200x/9a/89/e9/9a89e95fa6b3a69373c10a85927d761e.jpg" alt="user1" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-2" />
+                            <img src="https://i.pinimg.com/736x/be/a0/94/bea094206178df9941f3a28da7f2f8ed.jpg" alt="user2" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[3]" />
+                            <img src="https://i.pinimg.com/736x/bf/b5/33/bfb533e3b53f56cd85560a1836713b0c.jpg" alt="user3" className="size-8 object-cover rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[4]" />
+                            <img src="https://i.pinimg.com/736x/93/92/32/939232d4087c26522e8676d34a440080.jpg" alt="user5" className="size-8 rounded-full border-2 border-white hover:-translate-y-0.5 transition z-[5]" />
                         </div>
 
                         <div>
@@ -74,7 +74,7 @@ const Hero = () => {
                                 ))}
                             </div>
                             <p className="text-sm text-gray-700">
-                                Used by 10,000+ users
+                                Used by modipaglu users
                             </p>
                         </div>
                     </div>
