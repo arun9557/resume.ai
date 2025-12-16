@@ -2,10 +2,14 @@ import React from "react"
 const Features = () => {
     const [isHover, setIsHover] = React.useState(false);
     return (
-        <div>
-            <>
+            <div id='features' className='flex flex-col items-center my-10 scroll-mt-12'>
+            <div className="flex items-center gap-2 text-sm text-yellow-700 bg-yellow-400/10 rounded-full px-6 py-1.5">
+            <Zap width={14}/>
+            <span>process</span>
+        </div>
+
             <div className="flex flex-col md:flex-row items-center justify-center">
-                <img className="max-w-2xl w-full xl:-ml-32" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/group-image-1.png" alt="" />
+                <img className="max-w-2xl w-full xl:-ml-32" src="https://i.pinimg.com/736x/7b/4c/50/7b4c50097c1a55e504e134b6ef3e44c6.jpg" alt="" />
                 <div className="px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
                     <div className={"flex items-center justify-center gap-6 max-w-md group cursor-pointer"}>
                         <div className={`p-6 group-hover:bg-violet-100 border border-transparent group-hover:border-violet-300  flex gap-4 rounded-xl transition-colors ${!isHover ? 'border-violet-300 bg-violet-100' : ''}`}>
@@ -42,9 +46,10 @@ const Features = () => {
                 * {
                     font-family: 'Poppins', sans-serif;
                 }
-            `}</style>
-        </>
+            `}
+            </style>
         </div>
+        
     )
 }
 
