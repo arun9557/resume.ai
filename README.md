@@ -1,6 +1,6 @@
 #### working on resume.ai -------
 
-![alt text](image-2.png)
+<!-- img -->
 # bulit resume with AI ,,,,, why--??   
 ### for geting jobs  
 ![JobsJobsJobsFarlesmifelGIF](https://github.com/user-attachments/assets/75400520-fff6-4974-9bee-225d327f0f52)
