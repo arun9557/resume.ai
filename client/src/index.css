@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Stack+Sans+Notch:wght@200..700&display=swap');
 
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,8 +9,7 @@
   font-family: "Stack Sans Notch", sans-serif;
 }
 
-@layer base {
+@layer base {}
   button {
     @apply cursor-pointer;
   }
-}

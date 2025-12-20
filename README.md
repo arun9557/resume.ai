@@ -1,5 +1,5 @@
 #### working on resume.ai -------
-
+![alt text](img/image.png)
 <!-- img -->
 # bulit resume with AI ,,,,, why--??   
 ### for geting jobs  

@@ -1,11 +1,12 @@
 import React from "react"
+import { Zap } from 'lucide-react'
 const Features = () => {
     const [isHover, setIsHover] = React.useState(false);
     return (
             <div id='features' className='flex flex-col items-center my-10 scroll-mt-12'>
             <div className="flex items-center gap-2 text-sm text-yellow-700 bg-yellow-400/10 rounded-full px-6 py-1.5">
             <Zap width={14}/>
-            <span>process</span>
+            <span>Showcase</span>
         </div>
 
             <div className="flex flex-col md:flex-row items-center justify-center">
