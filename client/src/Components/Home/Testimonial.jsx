@@ -9,19 +9,19 @@ const Testimonial = () => {
             handle: '@BJP',
         },
         {
-            image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            image: 'https://pbs.twimg.com/media/G67pX5xbkAsKezf.jpg',
+            name: 'Rajiv Talwar',
+            handle: '@ULLUTVNEWS',
         },
         {
-            image: 'https://images.unsplash.com/photo-1527980965255-d3b416303d12?w=200&auto=format&fit=crop&q=60',
-            name: 'Jordan Lee',
-            handle: '@jordantalks',
+            image: 'https://c.ndtvimg.com/2022-12/2s6oc0io_rahul-gandhi-ndtv_650x400_24_December_22.jpg',
+            name: ' Rahul Gandhi',
+            handle: '@Indian National Congress',
         },
         {
-            image: 'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=200&auto=format&fit=crop&q=60',
-            name: 'Avery Johnson',
-            handle: '@averywrites',
+            image: 'https://c.ndtvimg.com/2025-03/ncl44v9g_kunal-kamra-_625x300_24_March_25.jpg?im=FaceCrop,algorithm=dnn,width=270,height=300',
+            name: 'Kunal Kamra',
+            handle: '@Political satire',
         },
     ];
         const CreateCard = ({ card }) => (
@@ -38,7 +38,7 @@ const Testimonial = () => {
                     <span className="text-xs text-slate-500">{card.handle}</span>
                 </div>
             </div>
-            <p className="text-sm py-4 text-gray-800">Radiant made undercutting all of our competitors an absolute breeze.</p>
+            <p className="text-sm py-4 text-gray-800">"Believe it or not, making a resume actually landed me both a job and a girlfriend!</p>
         </div>
     );
     return (
