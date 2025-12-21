@@ -9,10 +9,15 @@ const Features = () => {
             <Zap width={14}/>
             <span>Showcase</span>
         </div>
-        <Title title='Build your resume ' description='are mere baiya'/>
-            <div className="flex flex-col md:flex-row items-center xl:-mt-10">
-                <img className="max-w-2xl w-full xl:-ml-32" src="https://i.pinimg.com/736x/7b/4c/50/7b4c50097c1a55e504e134b6ef3e44c6.jpg" alt="" />
-                <div className="px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
+        <div className="text-center w-full mb-8">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">Build your resume</h2>
+            <p className="text-gray-600">Create a professional resume in minutes</p>
+        </div>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 xl:gap-16 xl:mt-6 w-full">
+                <div className="w-full max-w-xl xl:max-w-2xl xl:-ml-32">
+                    <img className="w-full h-auto" src="https://i.pinimg.com/736x/7b/4c/50/7b4c50097c1a55e504e134b6ef3e44c6.jpg" alt="Resume showcase" />
+                </div>
+                <div className="w-full max-w-md px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
                     <div className={"flex items-center justify-center gap-6 max-w-md group cursor-pointer"}>
                         <div className={`p-6 group-hover:bg-violet-100 border border-transparent group-hover:border-violet-300  flex gap-4 rounded-xl transition-colors ${!isHover ? 'border-violet-300 bg-violet-100' : ''}`}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="size-6 stroke-violet-600"><path d="M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z" /><circle cx="16.5" cy="7.5" r=".5" fill="currentColor" /></svg>
