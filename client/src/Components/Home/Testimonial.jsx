@@ -4,9 +4,9 @@ import React from "react";
 const Testimonial = () => {
      const cardsData = [
         {
-            image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200',
-            name: 'Briar Martin',
-            handle: '@neilstellar',
+            image: 'https://i.pinimg.com/736x/bf/b5/33/bfb533e3b53f56cd85560a1836713b0c.jpg',
+            name: 'Modi paglu',
+            handle: '@BJP',
         },
         {
             image: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200',
