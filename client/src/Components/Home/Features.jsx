@@ -1,5 +1,6 @@
 import React from "react"
 import { Zap } from 'lucide-react'
+import Title from "./Title";
 const Features = () => {
     const [isHover, setIsHover] = React.useState(false);
     return (
@@ -8,8 +9,8 @@ const Features = () => {
             <Zap width={14}/>
             <span>Showcase</span>
         </div>
-
-            <div className="flex flex-col md:flex-row items-center justify-center">
+        <Title title='Build your resume ' description='are mere baiya'/>
+            <div className="flex flex-col md:flex-row items-center xl:-mt-10">
                 <img className="max-w-2xl w-full xl:-ml-32" src="https://i.pinimg.com/736x/7b/4c/50/7b4c50097c1a55e504e134b6ef3e44c6.jpg" alt="" />
                 <div className="px-4 md:px-0" onMouseEnter={() => setIsHover(true)} onMouseLeave={() => setIsHover(false)}>
                     <div className={"flex items-center justify-center gap-6 max-w-md group cursor-pointer"}>
