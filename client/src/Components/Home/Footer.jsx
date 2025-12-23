@@ -38,13 +38,8 @@ const Footer = () => {
                 <div className="flex flex-col max-md:items-center max-md:text-center gap-2 items-end">
                     <p className="max-w-60">This is a fun practice tool. If an HR takes it seriously, that’s their problem.</p>
                     <div className="flex items-center gap-4 mt-3">
-                        <a href="https://dribbble.com/prebuiltui" target="_blank" rel="noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-dribbble size-5 hover:text-indigo-500" aria-hidden="true">
-                                <circle cx="12" cy="12" r="10"></circle>
-                                <path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path>
-                                <path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path>
-                                <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
-                            </svg>
+                        <a href="https://github.com/arun9557/resume.ai" target="_blank" rel="noreferrer">
+                            <img src="../public/icons8-github-48.png" alt="github" width="21" height="15" x="3" y="7" />
                         </a>
                         <a href="https://www.linkedin.com/in/arun-shekar-209483364/" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin size-5 hover:text-indigo-500" aria-hidden="true">
