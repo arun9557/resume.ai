@@ -11,32 +11,32 @@ const Footer = () => {
                     <div>
                         <p className="text-slate-700 font-semibold">Product</p>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="/" className="hover:text-indigo-600 transition">Home</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Support</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Pricing</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Affiliate</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Home</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Support</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Pricing</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Affiliate</a></li>
                         </ul>
                     </div>
                     <div>
                         <p className="text-slate-700 font-semibold">Resources</p>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="/" className="hover:text-indigo-600 transition">Company</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Blogs</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Community</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Careers<span className="text-xs text-white bg-indigo-600 rounded-md ml-2 px-2 py-1">We’re hiring!</span></a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">About</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Company</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Blogs</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Community</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Careers<span className="text-xs text-white bg-indigo-600 rounded-md ml-2 px-2 py-1">We’re hiring!</span></a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">About</a></li>
                         </ul>
                     </div>
                     <div>
                         <p className="text-slate-700 font-semibold">Legal</p>
                         <ul className="mt-2 space-y-2">
-                            <li><a href="/" className="hover:text-indigo-600 transition">Privacy</a></li>
-                            <li><a href="/" className="hover:text-indigo-600 transition">Terms</a></li>
+                            <li><a href="/" className="hover:text-yellowo-600 transition">Privacy</a></li>
+                            <li><a href="/" className="hover:text-yellow-600 transition">Terms</a></li>
                         </ul>
                     </div>
                 </div>
                 <div className="flex flex-col max-md:items-center max-md:text-center gap-2 items-end">
-                    <p className="max-w-60">Making every customer feel valued—no matter the size of your audience.</p>
+                    <p className="max-w-60">This is a fun practice tool. If an HR takes it seriously, that’s their problem.</p>
                     <div className="flex items-center gap-4 mt-3">
                         <a href="https://dribbble.com/prebuiltui" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-dribbble size-5 hover:text-indigo-500" aria-hidden="true">
@@ -46,7 +46,7 @@ const Footer = () => {
                                 <path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path>
                             </svg>
                         </a>
-                        <a href="https://www.linkedin.com/company/prebuiltui" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/in/arun-shekar-209483364/" target="_blank" rel="noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-linkedin size-5 hover:text-indigo-500" aria-hidden="true">
                                 <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
                                 <rect width="4" height="12" x="2" y="9"></rect>
@@ -68,7 +68,7 @@ const Footer = () => {
                             </svg>
                         </a>
                     </div>
-                    <p className="mt-3 text-center">© 2025 <a href="https://prebuiltui.com">PrebuiltUI</a></p>
+                    <p className="mt-3 text-center">© 2025 <a href="https://my-portfolio-kappa-five-34.vercel.app/">Arun Shekhar</a></p>
                 </div>
             </footer>
         <style>{`
