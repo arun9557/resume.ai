@@ -13,8 +13,8 @@ const Navbar = () => {
 
     const videos = [
         '/modi1.mp4',
+        '/modi3.mp4',
       '/modi4.mp4',
-      '/modi3.mp4',
       '/modi2.mp4'
     ]
 
@@ -56,6 +56,19 @@ const Navbar = () => {
         // ignore playback errors
       }
     }
+
+    // When a video ends, advance to the next and attempt to play it
+    useEffect(() => {
+      if (!showAd || !videoRef.current) return
+      const v = videoRef.current
+      const onEnded = () => {
+        setIndex(i => (i + 1) % videos.length)
+        setNeedUserGesture(false)
+        // don't call play here; the index change will trigger the other effect to attempt autoplay
+      }
+      v.addEventListener('ended', onEnded)
+      return () => v.removeEventListener('ended', onEnded)
+    }, [showAd, index, videos.length])
 
     return (
         <div className="shadow bg-white">
