@@ -17,6 +17,7 @@ const Navbar = () => {
                 <div className="flex items-center gap-4 text-sm">
                     <p className="hidden sm:block">Hi, {user?.name}</p>
                     <button onClick={logoutUser}  className="bg-yellow-500 hover:bg-yellow-600 text-white rounded-full px-6 py-2">Logout</button>
+                    <button className="bg-blue-500 hover:bg-blue-600 text-white rounded-full px-6 py-2">AD</button>
                 </div>
             </nav>
         </div>

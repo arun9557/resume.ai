@@ -9,7 +9,20 @@ const Dashboard = () => {
   const [showUploadResume, setShowUploadResume] = useState(false)
   const [title, setTitle] = useState('')
   const [selectedResume, setSelectedResume] = useState(null)
-  const [editResumeId, setEditResumeId] = useState(null)
+
+  const handleCreate = (e) => {
+    e.preventDefault()
+    const newResume = {
+      _id: String(Date.now()),
+      title: title || 'Untitled Resume',
+      updatedAt: new Date().toISOString(),
+      accent_color: colors[0],
+      personal_info: { full_name: title || 'Unnamed' }
+    }
+    setAllResumes(prev => [newResume, ...prev])
+    setTitle('')
+    setShowCreateResume(false)
+  }
 
   return (
     <div>
@@ -62,7 +75,7 @@ const Dashboard = () => {
                 <XIcon className='w-5 h-5' />
               </button>
               <h2 className='text-lg font-medium mb-4'>Create New Resume</h2>
-              <form onSubmit={(e) => { e.preventDefault(); const newResume = { _id: String(Date.now()), title: title || 'Untitled Resume', updatedAt: new Date().toISOString(), accent_color: colors[0], personal_info: { full_name: title || 'Unnamed' } }; setAllResumes(prev => [newResume, ...prev]); setTitle(''); setShowCreateResume(false); }}>
+              <form onSubmit={handleCreate}>
                 <input value={title} onChange={(e) => setTitle(e.target.value)} type='text' placeholder='Resume Title' className='w-full px-4 py-2 mb-4 border rounded focus:border-yellow-600' />
                 <button type='submit' className='w-full bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded'>Create Resume</button>
               </form>
