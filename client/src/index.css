@@ -9,7 +9,8 @@
   font-family: "Stack Sans Notch", sans-serif;
 }
 
-@layer base {}
+@layer base {
   button {
     @apply cursor-pointer;
   }
+}
