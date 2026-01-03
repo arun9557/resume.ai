@@ -94,7 +94,7 @@ const Dashboard = () => {
       setUploadTitle('')
       // redirect to builder for the first uploaded resume
       navigate(`/app/builder/${newItems[0]._id}`)
-    } catch (e) {
+    } catch {
       setUploadError('Could not parse JSON file')
     }
   }
